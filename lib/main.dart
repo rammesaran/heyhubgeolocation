@@ -56,9 +56,9 @@ class _TestMapPolylineState extends State<TestMapPolyline> {
                         (accurecy * 0.000009000009) -
                         latlngSegment[i].latitude +
                         (accurecy * 0.000009000009)) <
-            lat) {
+            lat) 
           pointStatus = !pointStatus;
-        }
+            
       }
       j = i;
     }
